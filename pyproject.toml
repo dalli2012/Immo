@@ -40,6 +40,9 @@ dev = [
 [project.scripts]
 immo = "immo.main:main"
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
